@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family:"Microsoft YaHei UI", sans-serif;
+            padding: 20px;
+        }
+        .container{
+            background-color: #eee;
+            padding: 20px;
+        }
+        .team_logo{
+            border: 1px solid #999;
+            width: 200px;
+            height: 120px;
+            float: left;
+            background-color: white;
+        }
+        .team_logo .team_name{
+            font-size: 15px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+        .team_logo .team_photo{
+            margin: 20px;
+        }
+        .team_logo .team_photo img{
+            width: 80px;
+            height:80px;
+            border: 1px solid #999;
+            vertical-align:text-top;
+        }
+
+        .team_detail{
+            border: 1px solid #999;
+            margin-left: 220px;
+            margin-right: 140px;
+            background-color: white;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .team_detail p{
+            font-size: 15px;
+        }
+        .team_members{
+            float: right;
+            width: 120px;
+            list-style-type: none;
+            border: 1px solid #999;
+            background-color: white;
+        }
+        .team_members li{
+            margin: 20px;
+        }
+        .team_members li img{
+            width: 80px;
+            height: 80px;
+            border: 1px solid #999;
+        }
+        .clearfix{
+            overflow: auto;
+        }
+    </style>
+    <title>三栏式布局</title>
+</head>
+
+<body>
+<div class="container clearfix">
+        <div class="team_logo">
+            <div class="team_photo">
+                <img src="images/team.jpg" alt="team logo">
+                <span class="team_name">打怪升级</span>
+            </div>
+        </div>
+
+        <ul class="team_members">
+            <li>
+                <img src="images/dongge.jpg" alt="东哥">
+            </li>
+            <li>
+                <img src="images/me.jpg" alt="我">
+            </li>
+            <li>
+                <img src="images/wuwei.jpg" alt="无为">
+            </li>
+            <li>
+                <img src="images/lilaoshi.jpg" alt="利老师">
+            </li>
+            <li>
+                <img src="images/xueyi.jpg" alt="美女班长">
+            </li>
+        </ul>
+
+        <div class="team_detail">
+            <h2>大家好，来讲个dota段子</h2><br/>
+            <p>猛犸：表哥，你藏野怪堆里干啥？人马：嘘，对面巨魔出支配了，一会肯定过来打野，我二连你一个波，妥妥的！猛犸：好是好，不过你站胖子怪堆里是不是太显眼了？人马：你懂个毛，我这是在装有人拉了双野！………蓝胖【盟友】：巨魔小心点，我身边俩二货在装野怪蹲你…另外你快回去叫人来，他俩就在我身边...</p>
+        </div>
+    </div>
+</body>
+</html>
