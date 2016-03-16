@@ -11,6 +11,9 @@
             font-family:"Microsoft YaHei UI", sans-serif;
             padding: 20px;
         }
+        div {
+            box-sizing: border-box;
+        }
         .container{
             background-color: #eee;
             padding: 20px;
@@ -47,13 +50,17 @@
         }
         .team_detail p{
             font-size: 15px;
+            text-indent: 2em;
+            line-height: 1.5em;
         }
         .team_members{
             float: right;
             width: 120px;
-            list-style-type: none;
             border: 1px solid #999;
             background-color: white;
+        }
+        .team_members ul{
+            list-style-type: none;
         }
         .team_members li{
             margin: 20px;
@@ -79,23 +86,26 @@
             </div>
         </div>
 
-        <ul class="team_members">
-            <li>
-                <img src="images/dongge.jpg" alt="东哥">
-            </li>
-            <li>
-                <img src="images/me.jpg" alt="我">
-            </li>
-            <li>
-                <img src="images/wuwei.jpg" alt="无为">
-            </li>
-            <li>
-                <img src="images/lilaoshi.jpg" alt="利老师">
-            </li>
-            <li>
-                <img src="images/xueyi.jpg" alt="美女班长">
-            </li>
-        </ul>
+        <div class="team_members">
+            <ul>
+                <li>
+                    <img src="images/dongge.jpg" alt="东哥">
+                </li>
+                <li>
+                    <img src="images/me.jpg" alt="我">
+                </li>
+                <li>
+                    <img src="images/wuwei.jpg" alt="无为">
+                </li>
+                <li>
+                    <img src="images/lilaoshi.jpg" alt="利老师">
+                </li>
+                <li>
+                    <img src="images/xueyi.jpg" alt="美女班长">
+                </li>
+            </ul>
+        </div>
+
 
         <div class="team_detail">
             <h2>大家好，来讲个dota段子</h2><br/>
